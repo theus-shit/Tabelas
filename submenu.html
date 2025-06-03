@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submenu</title>
+    <style>
+        .menu{
+            list-style: none;
+            float: left;
+            padding: 0px 20px 0px 5px;
+            line-height: 1.5;
+            font-family: Helvetica;
+        } 
+        .menu li{
+            position: relative;
+            float: left;
+        }
+
+        .menu li ul{
+            position: absolute;
+            top : 25px;
+            background-color: #fff;
+            display: none;
+        }
+        
+        .menu li a{
+            color: #333;
+            text-decoration: none;
+            padding: 5px 30px;
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <nav>
